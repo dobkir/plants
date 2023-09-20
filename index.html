@@ -250,13 +250,41 @@
           <img src="assets/img/contact-woman-gardener-1.png"
             alt="Beautiful blond female gardener with a radiant smile in a straw hat and green apron" width="400"
             height="497" />
-          <select class="city-selection" name="city-selection" required="required">
-            <option class="city-selection__title" value="">City</option>
-            <option class="city-selection__item" value="1">Canandaigua, NY</option>
-            <option class="city-selection__item" value="2">New York City</option>
-            <option class="city-selection__item" value="3">Yonkers, NY</option>
-            <option class="city-selection__item" value="4">Sherrill, NY</option>
-          </select>
+          <details class="city-selection">
+            <summary class="city-selection__title">City</summary>
+            <details class="contact-city">
+              <summary class="contact-city__label">Canandaigua, NY</summary>
+              <p class="contact-city__city-name"><b class="contact-city__subtitle">City:</b> Canandaigua, NY</p>
+              <p class="contact-city__contact-phone"><b class="contact-city__subtitle">Phone:</b> +1 585 393 0001</p>
+              <p class="contact-city__office-address"><b class="contact-city__subtitle">Office adress:</b> 151
+                Charlotte Street</p>
+              <a class="button" href="tel:+15853930001">Call us</a>
+            </details>
+            <details class="contact-city">
+              <summary class="city-selection__item" value="2">New York City</summary>
+              <p class="contact-city__city-name"><b class="contact-city__subtitle">City:</b> New York City</p>
+              <p class="contact-city__contact-phone"><b class="contact-city__subtitle">Phone:</b> +1 212 456 0002</p>
+              <p class="contact-city__office-address"><b class="contact-city__subtitle">Office adress:</b> 9 East 91st
+                Street</p>
+              <a class="button" href="tel:+12124560002">Call us</a>
+            </details>
+            <details class="contact-city">
+              <summary class="city-selection__item" value="3">Yonkers, NY</summary>
+              <p class="contact-city__city-name"><b class="contact-city__subtitle">City:</b> Yonkers, NY</p>
+              <p class="contact-city__contact-phone"><b class="contact-city__subtitle">Phone:</b> +1 914 678 0003</p>
+              <p class="contact-city__office-address"><b class="contact-city__subtitle">Office adress:</b> 511 Warburton
+                Ave</p>
+              <a class="button" href="tel:+19146780003">Call us</a>
+            </details>
+            <details class="contact-city">
+              <summary class="city-selection__item" value="4">Sherrill, NY</summary>
+              <p class="contact-city__city-name"><b class="contact-city__subtitle">City:</b> Sherrill, NY</p>
+              <p class="contact-city__contact-phone"><b class="contact-city__subtitle">Phone:</b> +1 315 908 0004</p>
+              <p class="contact-city__office-address"><b class="contact-city__subtitle">Office adress:</b> 14 WEST Noyes
+                BLVD</p>
+              <a class="button" href="tel:+13159080004">Call us</a>
+            </details>
+          </details>
         </div>
 
       </div>
@@ -270,11 +298,11 @@
   <footer class="footer">
     <div class="container">
 
-      <p class="copyright">
+      <adress class="copyright">
         <small>&copy;</small>
         <small>2022</small>
         <a href="https://github.com/dobkir" target="_blank">dobkir</a>
-      </p>
+      </adress>
 
       <ul class="social-links">
         <li class="social-links__item">
